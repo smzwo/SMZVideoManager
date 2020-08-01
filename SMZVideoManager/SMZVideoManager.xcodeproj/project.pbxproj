@@ -18,6 +18,7 @@
 		F64EC1F724CDB3D700403DBB /* SMZVideoManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64EC1F624CDB3D700403DBB /* SMZVideoManagerUITests.m */; };
 		F64EC20624CDB3FE00403DBB /* SMZVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F64EC20524CDB3FE00403DBB /* SMZVideoManager.m */; };
 		F64EC20924CDB43E00403DBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64EC20824CDB43E00403DBB /* AVFoundation.framework */; };
+		F64EC20C24D53BA100403DBB /* SMZVideoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F64EC20B24D53BA100403DBB /* SMZVideoViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		F64EC20424CDB3FE00403DBB /* SMZVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMZVideoManager.h; sourceTree = "<group>"; };
 		F64EC20524CDB3FE00403DBB /* SMZVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMZVideoManager.m; sourceTree = "<group>"; };
 		F64EC20824CDB43E00403DBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F64EC20A24D53BA100403DBB /* SMZVideoViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMZVideoViewManager.h; sourceTree = "<group>"; };
+		F64EC20B24D53BA100403DBB /* SMZVideoViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMZVideoViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				F64EC1E124CDB3D700403DBB /* main.m */,
 				F64EC20424CDB3FE00403DBB /* SMZVideoManager.h */,
 				F64EC20524CDB3FE00403DBB /* SMZVideoManager.m */,
+				F64EC20A24D53BA100403DBB /* SMZVideoViewManager.h */,
+				F64EC20B24D53BA100403DBB /* SMZVideoViewManager.m */,
 			);
 			path = SMZVideoManager;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				F64EC1D124CDB3D600403DBB /* AppDelegate.m in Sources */,
 				F64EC1E224CDB3D700403DBB /* main.m in Sources */,
 				F64EC1D424CDB3D600403DBB /* SceneDelegate.m in Sources */,
+				F64EC20C24D53BA100403DBB /* SMZVideoViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
